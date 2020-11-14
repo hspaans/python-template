@@ -1,6 +1,6 @@
 
 ### Bandit config file generated from:
-# '/workspaces/vscode-devcontainer-django/.venv/bin/bandit-config-generator -o .bandit.yml'
+# '/workspaces/python-template/.venv/bin/bandit-config-generator -o .bandit.yml'
 
 ### This config may optionally select a subset of tests to run or skip by
 ### filling out the 'tests' and 'skips' lists given below. If no tests are
