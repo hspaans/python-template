@@ -7,9 +7,7 @@
   "settings": {
     "terminal.integrated.shell.linux": "/bin/bash"
   },
-  "appPort": [
-    8000
-  ],
+  "appPort": [],
   "postCreateCommand": "pipenv update",
   "remoteUser": "vscode",
   "extensions": [
