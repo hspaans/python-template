@@ -1,5 +1,5 @@
 {
-  "image": "ghcr.io/hspaans/python-devcontainer:3.9.0",
+  "image": "ghcr.io/hspaans/python-devcontainer:3.9",
   "name": "Python",
   "containerEnv": {
     "PIPENV_VENV_IN_PROJECT": "1"
