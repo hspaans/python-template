@@ -15,6 +15,7 @@
     "editorconfig.editorconfig",
     "github.vscode-pull-request-github",
     "ms-python.python",
-    "redhat.vscode-yaml"
+    "redhat.vscode-yaml",
+    "ms-python.vscode-pylance"
   ]
 }
