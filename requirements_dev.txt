@@ -1,0 +1,4 @@
+bandit
+flake8==3.8.3
+flake8-json
+flake8-docstrings
