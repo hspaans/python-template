@@ -4,9 +4,7 @@
     "dockerfile": "Dockerfile",
     "context": "..",
     "args": {
-      // Update 'VARIANT' to pick a Python version: 3, 3.6, 3.7, 3.8, 3.9
       "VARIANT": "3.9",
-      // Options
       "INSTALL_NODE": "true",
       "NODE_VERSION": "lts/*"
     }
@@ -14,7 +12,6 @@
   "containerEnv": {
     "PIPENV_VENV_IN_PROJECT": "1"
   },
-  // Set *default* container specific settings.json values on container create.
   "settings": {
     "terminal.integrated.profiles.linux": {
       "bash (login)": {
@@ -38,7 +35,6 @@
     "python.linting.pydocstylePath": "/usr/local/py-utils/bin/pydocstyle",
     "python.linting.pylintPath": "/usr/local/py-utils/bin/pylint"
   },
-  // Add the IDs of extensions you want installed when the container is created.
   "extensions": [
     "davidanson.vscode-markdownlint",
     "editorconfig.editorconfig",
@@ -47,10 +43,7 @@
     "ms-python.vscode-pylance",
     "redhat.vscode-yaml"
   ],
-  // Use 'forwardPorts' to make a list of ports inside the container available locally.
   "forwardPorts": [],
-  // Use 'postCreateCommand' to run commands after the container is created.
   "postCreateCommand": "pip3 install --user -r requirements.txt",
-  // Comment out connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
   "remoteUser": "vscode"
 }
